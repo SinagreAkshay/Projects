@@ -3,57 +3,120 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ultraedit</title>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>excersize-6</title>
     <style>
-        body {
+        * {
             background-color: #222222;
-
         }
 
-        .contenar {
+        .container {
+            gap: 40px;
             display: flex;
-            gap: 50px;
-            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+
         }
 
         .box {
-            align-self: center;
             font-size: 25px;
-            font-weight: 9px;
-            display: inline-block;
+            font-weight: bold;
+            align-self: center;
+            color: white;
+
 
         }
 
         .box-1 {
-            margin-left: 100px;
+            display: inline-block;
+
+        }
+
+        #div-1 {
+            display: inline-block;
+            font-size: 10px;
+            padding-left: 12px;
+            color: white;
+            padding-left: 10px;
+        }
+
+        div>img {
+            border-radius: 50px;
+            margin-top: 10px;
+            margin-left: 150px;
+
+        }
+
+        details>ul {
+            font-weight: 20px;
+            font-size: 20px;
         }
 
         .box-2 {
-            margin-left: 25vw;
+            margin-left: 350px;
 
-        }
-
-        div > img {
-            border-radius: 190px;
         }
     </style>
 </head>
 
 <body>
-    <div class="contenar">
+    <div class="container">
+
         <div class="box box-1">
-            <img src="https://tse4.mm.bing.net/th?id=OIP.627hkvvA4cN2tCZ5NttztQHaHa&pid=Api&P=0&h=180" height="80"
-                width="100" alt="ultraedit">
+            <img src="https://www.ultraedit.com/wp-content/uploads/2022/11/UE-Icon_Light.png" alt="ultra-edit"
+                width="70px">
+            <div id="div-1"><span style="font-size: 33px; text-align: top;"> UltraEdit </span> <br> <span
+                    style="padding-left: 23px;">An Idera, Inc.
+                    Company</span></div>
         </div>
-        <div class="box box-2">Products</div>
-        <div class="box box-3"> Pricing </div>
-        <div class="box box-4"> Tesources </div>
-        <div class="box box-5"> About us </div>
-        <div class="box box-6">
-                        <img src="https://wellnesskitchen.com.sa/assets/img/lang.svg" alt="language" height="40">
+        <div class="box box-2">
+            <details>
+                <summary>Products</summary>
+                <ul>
+                    <li>UltraEdit</li>
+                    <li>UltraCompare</li>
+                    <li>333</li>
+                    <li>44</li>
+                    <li>555</li>
+                </ul>
+            </details>
         </div>
 
+        <div class="box">
+            <details>
+                <summary>Pricing</summary>
+                <ul>
+                    <li>UltraEdit</li>
+                    <li>UltraCompare</li>
+                    <li>333</li>
+                    <li>44</li>
+                    <li>555</li>
+                </ul>
+            </details>
+        </div>
+        <div class="box">
+            <details>
+                <summary>Resources</summary>
+                <ul>
+                    <li>UltraEdit</li>
+                    <li>UltraCompare</li>
+                    <li>333</li>
+                    <li>44</li>
+                    <li>555</li>
+                </ul>
+            </details>
+        </div>
+        <div class="box">
+            <details>
+                <summary>About Us</summary>
+                <ul>
+                    <li>UltraEdit</li>
+                    <li>UltraCompare</li>
+                    <li>333</li>
+                    <li>44</li>
+                    <li>555</li>
+                </ul>
+            </details>
+        </div>
     </div>
 </body>
 
